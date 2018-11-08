@@ -1,7 +1,7 @@
 
 import csv
 
-filename = 'training_data_new.csv' # Change the file name accordingly (for future usage)
+filename = 'TrainingSet_new.csv'  # Change the file name accordingly (for future usage)
 
 # Reading from csv
 
@@ -43,4 +43,3 @@ for row in temp_test_set:
     writer.writerow(row)
 
 new_file.close()
-
